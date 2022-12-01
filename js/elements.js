@@ -1,0 +1,11 @@
+export const modalProduct = document.querySelector('.modal_product');
+export const catalogList = document.querySelector('.catalog__list');
+export const modalTitle = document.querySelector('.modal-product__title');
+export const modalDescription = document.querySelector('.modal-product__description');
+export const modalImage = document.querySelector('.modal-product__image');
+export const modalCalories = document.querySelector('.ingredients__calories');
+export const modalIngredients = document.querySelector('.ingredients__list');
+export const modalPrice = document.querySelector('.modal-product__price-count');
+export const navigationList = document.querySelector('.navigation__list');
+export const navigationListItems = document.querySelectorAll('.navigation__button');
+export const catalogTitle = document.querySelector('.catalog__title');
