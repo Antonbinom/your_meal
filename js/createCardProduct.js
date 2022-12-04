@@ -5,7 +5,7 @@ export const createCardProduct = (product) => {
 	li.classList.add('catalog__item');
 	li.innerHTML = `
 		<li class="catalog__item">
-			<article class="product">
+			<article class="product" data-product-id=${product.id}>
 				<img class="product__image" src="${API_URL}/${product.image}" alt="${product.title}">
 				<p class="product__price">${product.price}<span class="currency">₽</span></p>
 				<h3 class="product__title">
